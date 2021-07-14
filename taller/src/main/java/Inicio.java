@@ -8,10 +8,12 @@ public class Inicio extends JFrame {
     public Inicio() {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
+        agregarCombobox();
+        this.add(jpanel);
+        setSize(400, 500);
     }
 
-    public JComboBox getComboBox1() {
-
-        return comboBox1;
+    public void agregarCombobox() {
+        comboBox1.setVisible(true);
     }
 }
